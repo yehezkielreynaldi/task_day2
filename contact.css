@@ -49,8 +49,10 @@ nav ul li .active {
     /* Mengatur Lebarnya */
     flex: 50%;
     margin-left: 25px;
+}
 
-
+.nav-left a:hover {
+    color: orangered;
 }
 
 .nav-right {
@@ -64,6 +66,10 @@ nav ul li .active {
     padding: 8px 20px;
     color: white;
     border-radius: 5px;
+}
+
+.nav-right a:hover {
+    background-color: orangered;
 }
 
 form {
